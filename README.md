@@ -1,5 +1,5 @@
 # Pace
-A jquery plugin that allows you to set the pace of DOM elements while scrolling. Useful for parallax background effects.
+A jQuery plugin that allows you to set the pace of DOM elements while scrolling. Useful for parallax background effects.
 
 ## Requirements
 jQuery 1.X and up.
