@@ -11,7 +11,8 @@ Add a data-scroll-speed attribute to an element:
 ```html
 <div data-scroll-speed="1.5"></div>
 ```
-> The Higher the number - the slower the speed.
+> The higher the number - the slower the speed.
+
 
 Target them with a jQuery selector:
 
