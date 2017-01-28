@@ -12,7 +12,6 @@ Add a data-scroll-speed attribute to an element:
 <div data-scroll-speed="1.5"></div>
 ```
 Target them with a jQuery selector:
-```
 
 ```javascript
 $('[data-scroll-speed]').pace();
