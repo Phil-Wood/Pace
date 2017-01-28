@@ -22,7 +22,7 @@ $('[data-scroll-speed]').pace();
 | Option        | Default       | Description                                             |
 | ------------- |:-------------:| :------------------------------------------------------ |
 | direction     | vertical      | Direction of movement ( **vertical** or **horizontal**) |
-| reverse       | false         | **false** = down or left **true** = up or right         |
+| reverse       | false         | **false** = down or left : **true** = up or right       |
 
 ### Example
 
