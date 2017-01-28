@@ -8,12 +8,14 @@ jQuery 1.X and up.
 
 Add a data-scroll-speed attribute to an element:
 
-```<div data-scroll-speed="1.5"></div>
+```html
+<div data-scroll-speed="1.5"></div>
 ```
 Target them with a jQuery selector:
 ```
 
-```$('[data-scroll-speed]').pace();
+```javascript
+$('[data-scroll-speed]').pace();
 ```
 
 ## Options
@@ -25,7 +27,8 @@ Target them with a jQuery selector:
 
 ### Example
 
-```var options = {
+```javascript
+var options = {
     'direction' : 'horizontal',
     'reverse' : true
 }
