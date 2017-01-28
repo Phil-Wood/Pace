@@ -9,38 +9,38 @@
  
     $.fn.extend({
 
-    	pace : function( options ) {
+        pace : function( options ) {
 
             // Default Options
 
-    		var defaults = {
+            var defaults = {
                 'direction' : 'vertical',
                 'reverse'   : false
             };
-    		var options = $.extend( defaults, options );
-    		var $window = $(window);
-    		var instances = [];
+            var options = $.extend( defaults, options );
+            var $window = $(window);
+            var instances = [];
             var pace = this;
 
             // Iterate through selected elements
 
-    		$(this).each(function() {
-		        instances.push(new pace.paceElement( $(this) ));
-		    });
+            $(this).each(function() {
+                instances.push(new pace.paceElement( $(this) ));
+            });
 
             // Update elements on scroll
 
-		    window.onscroll = function() {
-		        var scrollTop = $window.scrollTop();
-		        instances.forEach(function( inst ){
-		            pace.updateElement(inst, scrollTop, options);
-		        });
-		    };
+            window.onscroll = function() {
+                var scrollTop = $window.scrollTop();
+                instances.forEach(function( inst ){
+                    pace.updateElement(inst, scrollTop, options);
+                });
+            };
 
             // Return object to allow chaining
 
             return pace;
-    	},
+        },
 
         paceElement : function( el ) {
 
